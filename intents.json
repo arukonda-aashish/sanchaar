@@ -4,80 +4,172 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello", 
-        "Good day"
+        "Hello",
+        "Hey"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Welcome to KMTES. How can I assist you?",
+        "Hi there! How can I help you today?",
+        "Greetings! How may I assist you?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "courses",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What courses does KMTES offer?",
+        "Tell me about the courses at KMTES",
+        "Which branches are available at KMTES?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "KMTES offers courses in Computer Science, Artificial intelligence ",
+        "We have various courses including Computer Science, Electronics, and Mechanical engineering."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "admissions",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How can I apply to KMTES?",
+        "What is the admission process?",
+        "When are the admissions open?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "The admissions process involves an entrance exam and counseling sessions. You can visit our website for details.",
+        "Admissions usually open in [specific month]. Check our website for updates on the admission process."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "facilities",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What facilities does KMTES provide?",
+        "Tell me about the infrastructure at KMTES",
+        "Are there any labs at KMTES?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "KMTES offers state-of-the-art labs, libraries, sports facilities, and more for students.",
+        "Our infrastructure includes well-equipped labs, libraries, and sports facilities to support student development."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "placement",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How are the placements at KMTES?",
+        "Tell me about the placement opportunities",
+        "Are there any placement programs at KMTES?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "KMTES has a dedicated placement cell that assists students in securing job opportunities with top companies.",
+        "Our placement cell works closely with industry partners to facilitate job placements for students."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is KMTES located?",
+        "What is the address of KMTES?",
+        "How can I reach KMTES?"
+      ],
+      "responses": [
+        "Keshav Memorial Institute of Technology is located in Narayanguda in Hyderabad.",
+        "The address for KMTES is Narayanguda. You can reach us easily via metro."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Are there any upcoming events at KMTES?",
+        "Tell me about the events conducted by KMTES."
+      ],
+      "responses": [
+        "KMTES regularly conducts workshops, seminars, and cultural events. Stay updated through our website for upcoming events."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Who are the faculty members at KMTES?",
+        "Tell me about the professors at KMTES."
+      ],
+      "responses": [
+        "Our faculty consists of experienced professors with expertise in various domains. You can find more details on our website."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What is student life like at KMTES?",
+        "Tell me about extracurricular activities at KMTES."
+      ],
+      "responses": [
+        "KMTES encourages a vibrant student life with clubs, sports, and cultural activities to ensure holistic development."
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "Are there any research programs at KMTES?",
+        "Tell me about the research initiatives at KMTES."
+      ],
+      "responses": [
+        "KMTES actively promotes research activities and collaborations in various fields. Explore our website for detailed information."
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "Is there an alumni network at KMTES?",
+        "Tell me about the KMTES alumni association."
+      ],
+      "responses": [
+        "Our alumni network is vast and supportive, offering mentorship and networking opportunities for current students."
+      ]
+    },
+    {
+      "tag": "foundation_school",
+      "patterns": [
+        "What is taught in the foundation school at KMTES?",
+        "Tell me about the foundation school at KMTES."
+      ],
+      "responses": [
+        "In the foundation school, basics of programming languages are taught to first-year students at KMTES."
+      ]
+    },
+    {
+      "tag": "project_school",
+      "patterns": [
+        "What happens in the project school at KMTES?",
+        "Tell me about the project school at KMTES."
+      ],
+      "responses": [
+        "The project school at KMTES involves conducting an entry exam, forming groups based on test performance, and assigning projects to 2nd and 3rd-year students."
+      ]
+    },
+    {
+      "tag":"fees",
+      "patterns":[
+        "what is the fees structure?"
+      ],
+      "responses":[
+          "The annual fees is 70000 you have reimbursment options also for more detains visit our website."
+      ]
+    },
+    {
+      "tag": "finishing_school",
+      "patterns": [
+        "What is the objective of the finishing school at KMTES?",
+        "Tell me about the finishing school at KMTES."
+      ],
+      "responses": [
+        "The objective of the finishing school at KMTES is to enhance advanced problem-solving skills for 3rd and 4th-year students, beneficial for placements."
+      ]
+    },
+    {
+      "tag": "average_package",
+      "patterns": [
+        "What is the average package at KMTES?",
+        "Tell me about the average salary package at KMTES."
+      ],
+      "responses": [
+        "All colleges at KMTES offer an average package of 7.5 LPA for students."
       ]
     }
   ]
